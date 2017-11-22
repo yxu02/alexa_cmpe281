@@ -1,0 +1,36 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "Food",
+          "type": "AMAZON.Food"
+        },
+        {
+          "name": "Count",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "CountUnit",
+          "type": "LIST_OF_UNITS"
+        }
+      ],
+      "intent": "NewFoodIntent"
+    },
+    {
+      "intent": "MyHelpIntent"
+    },
+    {
+      "intent": "MyCancelIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+NewFoodIntent {Count}
+NewFoodIntent {Food}
+NewFoodIntent add
+NewFoodIntent store
+NewFoodIntent have
+NewFoodIntent {Count} {Food}
+NewFoodIntent {Count} {CountUnit} {Food}
+NewFoodIntent {Count} {CountUnit} of {Food}
+NewFoodIntent store {Count} {Food}
+NewFoodIntent store {Count} {CountUnit} {Food}
+NewFoodIntent store {Count} {CountUnit} of {Food}
+NewFoodIntent add {Count} {Food}
+NewFoodIntent add {Count} {CountUnit} {Food}
+NewFoodIntent add {Count} {CountUnit} of {Food}
+NewFoodIntent will have {Count} {Food}
+NewFoodIntent will have {Count} {CountUnit} {Food}
+NewFoodIntent will have {Count} {CountUnit} of {Food}
+NewFoodIntent had {Count} {Food}
+NewFoodIntent had {Count} {CountUnit} {Food}
+NewFoodIntent had {Count} {CountUnit} of {Food}
+
+MyHelpIntent what can you do
+MyHelpIntent what do you do
+MyHelpIntent how can I use you
+MyHelpIntent how can you help me
+MyHelpIntent get help
+
+MyCancelIntent bye
+MyCancelIntent good bye
+MyCancelIntent that's enough for today
+MyCancelIntent enough for today
+MyCancelIntent enough for the day
+MyCancelIntent that's enough for the day
+MyCancelIntent leave me alone
+MyCancelIntent leave me please
+MyCancelIntent please leave me
