@@ -7,7 +7,7 @@ var AlexaSkill = require('AlexaSkill'),
     eventHandlers = require('eventHandlers'),
     intentHandlers = require('intentHandlers');
 
-var APP_ID = 'xxxxxxxxxxxx';
+var APP_ID = 'xxxxxxxxxxxxxxxxx';
 var skillContext = {};
 
 /**

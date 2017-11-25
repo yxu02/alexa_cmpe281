@@ -13,6 +13,7 @@ var textHelper = (function () {
       ' Store 20 grams sugar,' +
       ' help' +
       ' and exit. What would you like? ',
+    invalidText: 'The input is invalid. Please try again. '
   };
 })();
 module.exports = textHelper;

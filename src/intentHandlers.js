@@ -22,9 +22,10 @@ var registerIntentHandlers = function (intentHandlers, skillContext) {
 
       var unit = calculateUnit(intent);
       var data = {
-        'food': food,
-        'count': count,
-        'unit': unit
+        food: food,
+        count: count,
+        unit: unit,
+        food_id: ''
       };
 
       storage.saveFood(session, data, response);
@@ -80,25 +81,25 @@ var calculateUnit = function (intent) {
       case 'ounces':
       case 'Oz':
       case 'oz':
-        unit = "ounce" + ((count > 1) ? 's' : '');
+        unit = 'oz';
         break;
       case 'g':
       case 'gs':
       case 'gram':
       case 'grams':
-        unit = "gram" + ((count > 1) ? 's' : '');
+        unit = 'gm';
         break;
       case 'ml':
       case 'milliliter':
       case 'milliliters':
-        unit = "ml";
+        unit = 'ml';
         break;
       default:
-        unit = "ounce" + ((count > 1) ? 's' : '');
+        unit = 'gm';
         break;
     }
   } else {
-    unit = "ounce" + ((count > 1) ? 's' : '');
+    unit = 'gm';
   }
 
   return unit;
